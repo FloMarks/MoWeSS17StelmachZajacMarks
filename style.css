@@ -1,0 +1,13 @@
+div {
+	font-size: 2rem;
+	color: blue;
+	display: inline;
+	width: 200px;
+	margin: 0 auto;
+}
+a, a:visited {
+	color: #0055a4;
+}
+p {
+	margin: 5rem;
+}
