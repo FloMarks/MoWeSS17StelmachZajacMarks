@@ -1,0 +1,53 @@
+/* grid layout, 3 columns */
+.wrapper {
+  display: grid; /* display: inline-grid;*/
+  grid-template-columns: 1fr 1fr 1fr; /* 3 x 1 fraction */    
+}
+
+.a {
+    grid-column: 1 / 4;
+    grid-row:    1 / 2;
+    background-color: #333;
+}
+
+.b {
+    grid-column: 1 / 2;
+    grid-row:    2 / 3;
+    background-color: red;
+}
+
+
+.c {
+    grid-column: 1 / 2;
+    grid-row:    3 / 4;
+    background-color: blue;
+}
+
+.d {
+    grid-column: 2 / 4;
+    grid-row:    2 / 4;
+    background-color: yellowgreen;
+}
+
+.a nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+}
+
+.a nav ul li{
+    list-style-type: none;
+    float: left;
+}
+
+.a nav ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+li a:hover{
+    background-color: black;
+}
