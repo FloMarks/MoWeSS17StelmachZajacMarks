@@ -5,7 +5,7 @@ html, body {
 
 header {
     height: 100px;
-    background-color: grey;
+    background-color: #eee;
 }
 
 header nav h1 {
@@ -14,8 +14,8 @@ header nav h1 {
 }
 
 #user {
-    height: 100%;
-    width: 306px;
+    height: auto;
+    width: 300px;
     float: left;
     margin-left: 100px;
     margin-top: 50px;
@@ -29,10 +29,7 @@ header nav h1 {
     height: 300px;
     min-width: 15em;
     min-height: 15em;
-    border-style: solid;
-    border-color: gray;
-    background-color: whitesmoke;
-    border-width: 3px;
+    background-color: #eee;
     float: left;
     border-radius: 5px;
 }
@@ -51,19 +48,13 @@ header nav h1 {
     height: 400px;
     min-width: 15em;
     min-height: 15em;
-    border-style: solid;
-    border-color: gray;
-    background-color: whitesmoke;
-    border-width: 3px;
+    background-color: #eee;
     border-radius: 5px;
 }
 
 #user_information h2{
     text-align: center;
     font-family: sans-serif;
-    border-bottom: solid;
-    border-color: gray;
-    padding-bottom: 15px;
     padding-top: 15px;
     margin-top: 0;
 }
@@ -72,26 +63,24 @@ header nav h1 {
 #user_posts {
     float: right;
     display: block;
-    margin-top: 50px;
     margin-right: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 50%;
-    height: 100%;
+    height: auto;
     min-width: 15em;
     min-height: 15em;
+    background-color: red;
 }
 
-#user_posts .post{
-    margin-top: 20px;
-    border: solid;
-    border-width: 3px;
-    border-color: gray;
+#user_posts .post {
+    margin-top: 0;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: #eee;
 }
 
 #user_posts .post h2{
+    padding-top: 20px; 
     text-align: center;
     font-family: sans-serif;
 }
@@ -99,4 +88,12 @@ header nav h1 {
 #user_posts .post img{
     max-width: 100%;
     height: auto;
+}
+
+#user_posts .post .preview {
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 20px;
+    margin: 10px;
 }
