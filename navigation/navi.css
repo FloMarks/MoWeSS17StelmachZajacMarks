@@ -1,34 +1,33 @@
 html, body{
     margin: 0px;
 	  font-family: 'Century Gothic' , sans-serif;
-    color: #FFFFFF;
 }
 
-nav {
+.container nav {
     background-color: #E6E6E6;
     height: 11%;
     font-size: 25px;
 }
 
-a {
+.container a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-a:hover {
+.container a:hover {
     color: black;
 }
 
-a:active {
+.container a:active {
     color: black;
 }
 
-ul {
+.container ul {
     margin: 0;
     margin-bottom: 3%;
 }
 
-li {
+.container li {
     display: inline-block;
 }
 
@@ -48,8 +47,10 @@ li {
 }
 
 .logo {
-  height: 43px;
-  width: 200px;
+    position: relative;
+  width: 60%;
+    top: 50%;
+    transform: translateY(30%);
 
 }
 
