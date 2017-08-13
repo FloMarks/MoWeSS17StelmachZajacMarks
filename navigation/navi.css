@@ -1,17 +1,64 @@
 html, body{
     margin: 0px;
 	  font-family: 'Century Gothic' , sans-serif;
+
 }
 
 .container nav {
-    background-color: #E6E6E6;
-    height: 100%;
-    font-size: 25px;
+    /*background-color: #E6E6E6;*/
+	background-color: #CC9655;
+    height: 60%;
+    font-size: 20px;
+	margin-top: 0%
+
+
 }
 
-.container a {
+#nav_text{
+	
+	position: relative;
+	margin-left: 23.6%; 
+	padding-top: 1%
+
+}
+
+.login-buttons-nav a{
+	
+	background-color: #CC9655;
+    margin: 8px;
+	padding: 10px; 
+    border: solid;
+	border-color: white; 
+	border-width: 1px;
+    cursor: pointer;
+    width: 8%;
+	text-decoration: none;
+	color: white;
+	float: right;
+	text-align: center;
+	position: relative; 
+
+}
+
+.login-buttons-nav {
+	
+	margin-top: -3%;
+	margin-right: 5.5%;
+  
+}
+
+.login-buttons-nav a:hover {
+    opacity: 0.8;
+}
+
+ a{
     text-decoration: none;
     color: #FFFFFF;
+	position: relative;
+	margin-left: 2%;
+
+
+
 }
 
 .container a:hover {
@@ -20,15 +67,6 @@ html, body{
 
 .container a:active {
     color: black;
-}
-
-.container ul {
-    margin: 0;
-    margin-bottom: 3%;
-}
-
-.container li {
-    display: inline-block;
 }
 
 .container {
@@ -42,26 +80,21 @@ html, body{
     z-index: 1;
 }
 
-.head > li {
-    padding: 0.5em 0em;
-    padding-right: 33px;
-}
-
 .logo {
-    position: relative;
-    width: 150px;
-    top: 50%;
+    position: fixed;
+    width: 95px;
+    top: 0%;
     transform: translateY(30%);
-
-}
-
-.navi > li {
-    width: 19%;
-    text-align: center;
+	margin-left: 10%;
 
 }
 
 
 .search-input {
   border-color: #F2F2F2;
+  position: relative; 
+  float: right;
+  margin-right: 5.6%;
+  margin-top: 1%;
+
 }

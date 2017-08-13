@@ -1,31 +1,12 @@
-/* grid layout, 3 columns */
+
 .wrapper {
-    display: grid; /* display: inline-grid;*/
+    display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 3 x 1 fraction */  
-    grid-template-rows: 80px 0px 150px 250px 200px 200px 200px;  
+    grid-template-rows: 45px 0px 150px 250px 200px 200px 200px;  
 	grid-row-gap: 1em;
 	grid-column-gap: 1em;
 
 }
-
-.b {
-    grid-column: 2 / 3;
-    grid-row:    1 / 2;
-    background-color: whitesmoke;
-}
-
-.a {
-    grid-column: 1 / 1;
-    grid-row:    1 / 1;
-    background-color: whitesmoke;
-}
-
-.c {
-    grid-column: 3 / 9;
-    grid-row:    1 / 1;
-    background-color: whitesmoke;
-}
-
 
 
 #welcome {
@@ -92,7 +73,7 @@
  .overview_pic {
     grid-column: 4 / 10 ;
     grid-row:    2 / 4;
-	margin-top: 1em;
+	margin-top: 1em ;
 	background-image: url(data/images/map.jpg);
 	background-repeat:no-repeat;
 	background-size: cover;
