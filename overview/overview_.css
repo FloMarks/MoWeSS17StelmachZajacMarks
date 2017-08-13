@@ -1,0 +1,286 @@
+/* grid layout, 3 columns */
+.wrapper {
+    display: grid; /* display: inline-grid;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 3 x 1 fraction */  
+    grid-template-rows: 80px 0px 150px 250px 200px 200px 200px;  
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+
+}
+
+.b {
+    grid-column: 2 / 3;
+    grid-row:    1 / 2;
+    background-color: whitesmoke;
+}
+
+.a {
+    grid-column: 1 / 1;
+    grid-row:    1 / 1;
+    background-color: whitesmoke;
+}
+
+.c {
+    grid-column: 3 / 9;
+    grid-row:    1 / 1;
+    background-color: whitesmoke;
+}
+
+
+
+#welcome {
+  color: white;
+  font-family: 'Century Gothic';
+  text-align: center;
+  font-weight: bold;
+}
+
+#overview_text_ins{
+	text-align: center;
+	margin-right: 10%;
+	  font-family: 'Century Gothic';
+	
+}
+
+#overview_text_info{
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: grey;
+	font-family: 'Century Gothic';
+	font-weight:lighter;
+
+	
+}
+
+.login-buttons{
+	
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+
+	
+}
+.login-buttons a{
+	
+	background-color: #CC9655;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-family: 'Century Gothic';
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.login-buttons a:hover {
+    opacity: 0.8;
+}
+
+.filter_box1:hover{
+	
+  -webkit-filter: blur(5px);
+    filter: blur(5px);
+
+
+}
+
+
+ .overview_pic {
+    grid-column: 4 / 10 ;
+    grid-row:    2 / 4;
+	margin-top: 1em;
+	background-image: url(data/images/map.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-width: 100%; 
+	height: auto;
+}
+
+.pic_text  {
+    grid-column: 4 / 10 ;
+    grid-row:    2 / 4;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+ .overview_text {
+    grid-column: 4 / 10 ;
+    grid-row:    4 / 4;
+    background-color: white;
+	
+}
+
+
+.overview_box1 {
+    grid-column:  4 / 6;
+    grid-row:    5 / 5;
+	background-image: url(data/images/berg.jpg);
+}
+
+.overview_box2{
+    grid-column:  6/8;
+    grid-row:    5 / 5;
+	background-image: url(data/images/koln.jpg);
+}
+
+.overview_box3{
+    grid-column:  8 / 10;
+    grid-row:    5 / 5;
+	background-image: url(data/images/nepal.jpg);
+}
+
+.overview_box4 {
+    grid-column:  4 / 6;
+    grid-row:    6 / 6;
+	background-image: url(data/images/strand.jpg);
+}
+
+.overview_box5{
+    grid-column:  6 / 8;
+    grid-row:    6 / 6;
+	background-image: url(data/images/tokio.jpg);
+}
+
+.overview_box6{
+    grid-column:  8 / 10;
+    grid-row:    6 / 6;
+	background-image: url(data/images/stadt.jpg);
+}
+
+.overview_box7{
+    grid-column:  4 / 6;
+    grid-row:    7 / 7;
+	background-image: url(data/images/niagara.jpg);
+}
+
+
+.overview_box8{
+    grid-column:  6 / 8;
+    grid-row:    7 / 7;
+	background-image: url(data/images/wueste.jpg);
+}
+
+.overview_box9{
+    grid-column:  8 / 10;
+    grid-row:    7 / 7;
+	background-image: url(data/images/paris.jpg);
+}
+
+.overview_box1, .overview_box2,.overview_box3, .overview_box4,.overview_box5, .overview_box6, .overview_box7, .overview_box8, .overview_box9{	
+	
+	float: left;
+	box-sizing: border-box;
+	background-size: cover;
+	background-repeat:no-repeat;
+	max-width: 465px;
+}
+
+#name_box1, #name_box2, #name_box3, #name_box4, #name_box5, #name_box6, #name_box7, #name_box8, #name_box9{
+  
+  color: white;
+  font-family: 'Century Gothic';
+  text-align: center;
+  margin-top: 25%;
+}
+
+
+.filter_box1 {
+	
+	grid-column:  4 / 6;
+	grid-row:    5 / 5;
+	
+}
+
+.filter_box2{
+    
+	grid-column:  6 / 8;
+    grid-row:    5 / 5;
+
+}
+
+.filter_box3{
+    
+	grid-column:  8 / 10;
+    grid-row:    5 / 5;
+
+}
+
+.filter_box4 {
+    grid-column:  4 / 6;
+    grid-row:    6 / 6;
+
+}
+
+.filter_box5{
+    
+	grid-column:  6 / 8;
+    grid-row:    6 / 6;
+}
+
+.filter_box6{
+    
+	grid-column:  8 / 10;
+    grid-row:    6 / 6;
+
+}
+
+.filter_box7{
+   
+    grid-column:  4 / 6;
+    grid-row:    7 / 7;
+
+}
+
+.filter_box8{
+    
+	grid-column:  6 / 8;
+    grid-row:    7 / 7;
+
+}
+
+.filter_box9{
+    
+	grid-column:  8 / 10;
+    grid-row:    7 / 7;
+}
+
+.filter_box1, .filter_box2, .filter_box3, .filter_box4, .filter_box5, .filter_box6, .filter_box7, .filter_box8, .filter_box9{
+
+	float: left;
+	box-sizing: border-box;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background: black;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+body{
+  background-color: #f8e5c8;
+}
+
+h2 {
+    margin-left: 10%;
+    font-family: sans-serif;
+    color: gray;
+}
+
+
+
+.c form {
+    text-align: center;
+    padding-top: 8%;
+}
+footer{
+  text-align: center;
+  color: #585858;
+  font-family: 'Century Gothic';
+  margin-top: 3%;
+}
+
+
+*/

@@ -1,0 +1,154 @@
+/* grid layout, 3 columns */
+.wrapper {
+    display: grid; /* display: inline-grid;*/
+    grid-template-columns: repeat(1fr); /* 3 x 1 fraction */  
+    grid-template-rows: 80px 0px 150px 100px 300px 300px;  
+	grid-row-gap: 1em;
+}
+
+.b {
+    grid-column: 2 / 3;
+    grid-row:    1 / 2;
+    background-color: whitesmoke;
+}
+
+.a {
+    grid-column: 1 / 1;
+    grid-row:    1 / 1;
+    background-color: whitesmoke;
+}
+
+.c {
+    grid-column: 3 / 8;
+    grid-row:    1 / 1;
+    background-color: whitesmoke;
+}
+
+.overview_text {
+    grid-column: 2 / 8;
+    grid-row:    4 / 4;
+    background-color: red;
+}
+
+
+
+.overview_pic {
+    grid-column: 2 / 7;
+    grid-row:    2 / 4;
+    background-color: yellowgreen;
+	
+}
+
+.overview_box1 {
+    grid-column:  2 / 2;
+    grid-row:    5 / 5;
+    background-color: blue;
+}
+
+.overview_box2{
+    grid-column:  4/6;
+    grid-row:    5 / 5;
+    background-color: blue;
+}
+
+.overview_box3{
+    grid-column:  6 / 8;
+    grid-row:    5 / 5;
+    background-color: blue;
+}
+
+.overview_box4 {
+    grid-column:  2 / 2;
+    grid-row:    6 / 6;
+    background-color: blue;
+}
+
+.overview_box5{
+    grid-column:  4 / 6;
+    grid-row:    6 / 6;
+    background-color: blue;
+}
+
+.overview_box6{
+    grid-column:  6 / 8;
+    grid-row:    6 / 6;
+    background-color: blue;
+}
+
+.overview_box1, .overview_box2, .overview_box3, .overview_box4, .overview_box5, .overview_box6 {
+  text-align: center;
+  float: left;
+ /* width: 32%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;*/
+  background: blue;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E0F2F7;
+}
+
+/* Navigation der Menü-Bar (.b) */
+
+.b nav ul a {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+}
+
+.b nav ul li{
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+}
+
+.b nav ul #recent{
+    border-left: 2px solid grey;
+}
+
+.b nav ul #explore{
+    border-right: 2px solid grey;
+}
+
+.b nav ul #popular{
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+
+.b nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.b nav {
+}
+
+
+li a:hover{
+    background-color: white;
+}
+
+/* Titel der Menü-Bar (.a) */
+
+
+h2 {
+    margin-left: 10%;
+    font-family: sans-serif;
+    color: gray;
+}
+
+
+
+.c form {
+    text-align: center;
+    padding-top: 8%;
+}
+
+

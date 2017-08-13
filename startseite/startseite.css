@@ -10,6 +10,8 @@
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 5%;
+  width: 70%;
+  margin-left:10%;
 }
 
 #welcome {
@@ -54,7 +56,9 @@ body{
 .page-content{
   background-color: white;
   float: left;
+  width: 80%;
   margin-bottom: 1%;
+  margin-left: 10%;
 }
 
 h3 {
@@ -89,4 +93,5 @@ footer{
   text-align: center;
   color: #585858;
   font-family: 'Century Gothic';
+  margin-top: 3%;
 }
