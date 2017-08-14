@@ -4,23 +4,30 @@
     <title>Name des Blogeintrags</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="blogeintrag.css" type="text/css" rel="stylesheet">
   </head>
   <body>
+  <h1>Blogeintrag</h1>
 
 	<div class = "start-picture">
   </div>
 
-  <div class = "information">
-    <div class = "blog-info">
-    </div>
+  <div class = "blog-info"></div>
 
-    <div class = "map">
-    </div>
+  <div class = "blog-content"></div>
+
+  <!--<input id="pac-input" class="controls" type="text"
+      placeholder="Enter a location">-->
+  <div id="map"></div>
+  <div id="infowindow-content">
+    <span id="place-name"  class="title"></span><br>
+    Place ID <span id="place-id"></span><br>
+    <span id="place-address"></span>
   </div>
 
-  <div class = "blog-content">
-  </div>
-
-
+  <script src = "map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoHIww69uVIXblRNsiIwOh3A1oAtPJIwI&libraries=places&callback=initMap"
+      async defer></script>
   </body>
+
 </html>
