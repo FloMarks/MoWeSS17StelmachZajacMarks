@@ -82,3 +82,8 @@ h1 , p {
 .buttons {
   text-align: center;
 }
+
+form {
+    text-align: center;
+    padding-top: 6%;
+}
