@@ -1,7 +1,7 @@
 
 .wrapper {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 3 x 1 fraction */  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 45px 0px 150px 250px 200px 200px 200px;  
 	grid-row-gap: 1em;
 	grid-column-gap: 1em;
@@ -14,12 +14,14 @@
   font-family: 'Century Gothic';
   text-align: center;
   font-weight: bold;
+
 }
 
 #overview_text_ins{
 	text-align: center;
 	margin-right: 10%;
 	  font-family: 'Century Gothic';
+	  margin-top: 5%;
 	
 }
 
