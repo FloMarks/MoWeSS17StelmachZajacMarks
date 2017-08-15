@@ -4,62 +4,121 @@
   height: 10%;
 } */
 
+
+
+
 /*Begrüßung*/
-.content-section{
-  background-image: url("Thailand_05.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 5%;
-  width: 70%;
-  margin-left:10%;
+.wrapper-main{
+	
+	display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 45px 0px 300px 250px 200px 200px 200px;  
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+
+
+  
 }
+
+.start-picture{
+	grid-column: 4 / 10 ;
+    grid-row:    2 / 4;
+	margin-top: 1em ;
+	background-size: cover;
+	background-width: 100%; 
+	background-image: url("e.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+
+	
+	
+}
+
+
+#main_text_ins{
+	text-align: center;
+
+	  font-family: 'Century Gothic';
+	
+}
+
+#main_text_info{
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: grey;
+	font-family: 'Century Gothic';
+	font-weight:lighter;
+}
+
+ .main_text {
+    grid-column: 4 / 10 ;
+    grid-row:    4 / 4;
+    background-color: white;
+	
+}
+
 
 #welcome {
   color: white;
   font-family: 'Century Gothic';
   text-align: center;
+  grid-column: 4 / 10 ;
+    margin-top: 5%;
 }
 
 #welcome-text {
   color: white;
   font-family: 'Century Gothic';
   text-align: center;
+  grid-column: 4 / 10 ;
+  margin-top: 4%;
 }
 
-.search-input {
-  width: 90%;
-  font-family: 'Century Gothic';
-}
-
-.login-buttons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3%;
-}
-
-.login-buttons a {
-  font-family: 'Century Gothic';
-  color: white;
-  margin-left: 1%;
-  background-color: #0B4C5F;
-  width: 150px;
-  text-align: center;
-  border-radius: 10%;
-  text-decoration: none;
-}
-/*Eigentlicher Inhalt der Page*/
-body{
-  background-color: #E0F2F7;
-}
-
-.page-content{
-  background-color: white;
-  float: left;
+.search-input-main {
   width: 80%;
-  margin-bottom: 1%;
-  margin-left: 10%;
+  font-family: 'Century Gothic';
+  grid-column: 4 / 10 ;
+  margin-top: 2%;
 }
+
+.login-buttons-main a{
+	
+	background-color: #CC9655;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-family: 'Century Gothic';
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin-top: 1%;
+  
+}
+
+.login-buttons-main{
+	
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.login-buttons-main a:hover {
+    border:solid;
+	border-width: 1px;
+}
+
+
+/*Eigentlicher Inhalt der Page*/
+
+body{
+background-color: #f8e5c8;;
+}
+
 
 h3 {
   color: #585858;
@@ -89,6 +148,7 @@ p {
   margin-bottom: 1%;
   margin-right: 1%;
 }
+
 footer{
   text-align: center;
   color: #585858;
