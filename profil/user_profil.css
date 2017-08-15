@@ -15,9 +15,8 @@ header nav h1 {
 #main_content {
     height: 100%;
     width: 950px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #user {
@@ -104,5 +103,16 @@ header nav h1 {
     font-size: 1em;
     line-height: 20px;
     margin: 10px;
+}
+
+
+@media only screen and (max-width: 1060px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    #main_content {
+    
+    }
 }
 
