@@ -27,7 +27,6 @@ if(isset($_POST['submit'])){
         } else {
             if($row = mysqli_fetch_assoc($result)){
                 //de-hashing password
-                
                 $hashedPwdCheck = password_verify($upwd, $row['user_pwd']);
                 
                 if($hashedPwdCheck == false){

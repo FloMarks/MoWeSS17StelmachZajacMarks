@@ -1,0 +1,82 @@
+#map {
+  width: 40%;
+  height: 55%;
+  float: left;
+  margin-left: 9%;
+  display: block;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f8e5c8;
+}
+
+/*Als Opening Picture wird das hochgeladene Bild verwendet --> soweit das geht*/
+.opening-picture {
+  background-image: url(map.jpg);
+  padding: 3%;
+}
+
+h1 {
+  color: white;
+  font-family: 'Century Gothic';
+  text-align: center;
+}
+
+p {
+  color: #0000;
+  font-family: 'Century Gothic';
+}
+
+.blog-content, .blog-info {
+  background-color: white;
+  color: #585858;
+  width: 39%;
+  margin-top: 2%;
+  padding: 0.5%;
+  border-radius: 2px;
+  display: block;
+}
+
+.blog-content {
+  float: right;
+  margin-right: 9%;
+
+}
+
+.blog-info {
+  float: left;
+  margin-left: 9%;
+  margin-bottom: 2%;
+}
+
+
+.title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+form {
+    text-align: center;
+    padding-top: 6%;
+}
+
+footer{
+  text-align: center;
+  color: #585858;
+  font-family: 'Century Gothic';
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: -10%;
+  float: left;
+  display: block;
+}

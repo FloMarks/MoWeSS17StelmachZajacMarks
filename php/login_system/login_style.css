@@ -6,7 +6,7 @@ body {
 }
 
 /* Bordered form */
-form {
+#main {
     border: 2px solid #000;
     position: fixed;
     top: 20%;
@@ -44,7 +44,7 @@ button {
     font-family: 'Century Gothic';
 }
 
-button[type=submit]{
+#submit{
     font-size: 1.4em;  
 }
 
@@ -72,6 +72,12 @@ button:hover {
 }
 
 .registerbtn {
+    display: inline;
+    padding: 10px 50px;
+    width: auto;
+}
+
+.logoutbtn {
     display: inline;
     padding: 10px 50px;
     width: auto;

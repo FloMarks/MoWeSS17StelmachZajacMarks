@@ -10,7 +10,7 @@ session_start();
   </head>
 
   <body>
-    <form action="includes/login-inc.php" method="POST">
+    <form action="includes/login-inc.php" method="POST" id="main">
 
     <header><p>Login</p></header>
 <div class="container">
@@ -23,8 +23,8 @@ session_start();
   </div>
 
   <div class="container" id="space">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <a href="register.php"><button type="button" class="registerbtn">  Register </button></a>
+    <a href="../blog_entrys/create_entry.php"><button type="button" class="cancelbtn">Cancel</button></a> 
+    <a href="register.php"><button type="button" class="registerbtn">  Register </button></a>    
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>

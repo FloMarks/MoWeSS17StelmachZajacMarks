@@ -1,1 +1,0 @@
-# MoWeSS17StelmachZajacMarks

@@ -1,0 +1,89 @@
+body {
+  background-color: #f8e5c8;
+}
+
+footer{
+  text-align: center;
+  color: #585858;
+  font-family: 'Century Gothic';
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.opening-picture {
+  background-image: url(map.jpg);
+  padding: 3%;
+
+}
+
+h1 , p {
+  color: white;
+  font-family: 'Century Gothic';
+  text-align: center;
+}
+
+.add-picture, .save, .quit {
+  background-color: #CC9655;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  font-family: 'Century Gothic';
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+  border-radius: 2px;
+}
+
+.add-picture:hover, .save:hover, .quit:hover {
+  background-color: #61380B;
+}
+
+.inputs {
+  text-align: center;
+  font-family: 'Century Gothic';
+}
+
+#entry-title, #place {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 40%;
+  border: none;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: 'Century Gothic';
+  font-size: 15px;
+  font-weight: 300;
+  padding: 1%;
+  outline: none;
+  text-overflow: ellipsis;
+}
+
+#entry {
+  width: 81%;
+  border: none;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: 'Century Gothic';
+  font-size: 15px;
+  font-weight: 300;
+  padding: 1%;
+  outline: none;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  text-align: center;
+}
+
+form {
+    text-align: center;
+    padding-top: 6%;
+}
