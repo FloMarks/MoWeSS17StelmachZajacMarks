@@ -1,100 +1,34 @@
-html, body{
+ html, body{
     margin: 0px;
 	  font-family: 'Century Gothic' , sans-serif;
 
 }
-
-.container nav {
-    /*background-color: #E6E6E6;*/
-	background-color: #CC9655;
-    height: 60%;
-    font-size: 20px;
-	margin-top: 0%
-
-
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
 }
 
-#nav_text{
-	
-	position: relative;
-	margin-left: 23.6%; 
-	padding-top: 1%
-
-}
-
-.login-buttons-nav a{
-	
-	background-color: #CC9655;
-    margin: 8px;
-	padding: 10px; 
-    border: solid;
-	border-color: white; 
-	border-width: 1px;
-    cursor: pointer;
-    width: 8%;
-	text-decoration: none;
-	color: white;
-	float: right;
-	text-align: center;
-	position: relative; 
-
-}
-
-.login-buttons-nav {
-	
-	margin-top: -3%;
-	margin-right: 5.5%;
-  
-}
-
-.login-buttons-nav a:hover {
-    opacity: 0.8;
-}
-
- a{
-    text-decoration: none;
-    color: #FFFFFF;
-	position: relative;
-	margin-left: 2%;
-
-
-
-}
-
-.container a:hover {
-    color: black;
-}
-
-.container a:active {
-    color: black;
-}
-
-.container {
-    position: fixed;
-    width: 100%;
-    height: 100px;
-}
-
-.head {
+/* Style the links inside the navigation bar */
+.topnav a {
     float: right;
-    z-index: 1;
-}
-
-.logo {
-    position: fixed;
-    width: 95px;
-    top: 0%;
-    transform: translateY(30%);
-	margin-left: 10%;
-
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 
-.search-input {
-  border-color: #F2F2F2;
-  position: relative; 
-  float: right;
-  margin-right: 5.6%;
-  margin-top: 1%;
 
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
 }
