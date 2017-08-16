@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #EFF8FB;
 }
 
 header {
@@ -17,6 +18,7 @@ header nav h1 {
     width: 950px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5%;
 }
 
 #user {
@@ -34,8 +36,8 @@ header nav h1 {
     min-height: 15em;
     background-color: #eee;
     float: left;
-    border-radius: 5px;
-    
+    border-radius: 2px;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
 
 #user_picture img {
@@ -53,8 +55,9 @@ header nav h1 {
     height: 400px;
     min-width: 15em;
     min-height: 15em;
-    background-color: #eee;
-    border-radius: 5px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
 
 #user_information h2{
@@ -62,6 +65,8 @@ header nav h1 {
     font-family: sans-serif;
     padding-top: 15px;
     margin-top: 0;
+    font-family: 'Century Gothic';
+    color: #6E6E6E;
 }
 
 #user_information ul{
@@ -72,6 +77,8 @@ header nav h1 {
    font-family: sans-serif;
     font-size: 1.3em;
     padding-top: 15px;
+    font-family: 'Century Gothic';
+    color: #6E6E6E;
 }
 
 #user_posts {
@@ -82,19 +89,22 @@ header nav h1 {
 }
 
 #user_posts .post {
-    border-radius: 5px;
-    background-color: #eee;
+    border-radius: 2px;
+    background-color: white;
+    font-family: 'Century Gothic';
+    color: #6E6E6E;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
 
-#user_posts .post h2{ 
+#user_posts .post h2{
+    font-family: 'Century Gothic';
     padding-top: 20px;
     text-align: center;
-    font-family: sans-serif;
 }
 
 #user_posts .post img{
     max-width: 100%;
-   
+
 }
 
 #user_posts .post .preview {
@@ -103,6 +113,7 @@ header nav h1 {
     font-size: 1em;
     line-height: 20px;
     margin: 10px;
+    font-family: 'Century Gothic';
 }
 
 
@@ -110,9 +121,8 @@ header nav h1 {
     body {
         background-color: lightblue;
     }
-    
+
     #main_content {
-    
+
     }
 }
-

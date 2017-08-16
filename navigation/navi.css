@@ -7,6 +7,7 @@
 nav {
     background-color: #f2f2f2;
     text-align: center;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
 
 #logo {
@@ -21,6 +22,7 @@ img {
 
 #login {
     float: right;
+
 }
 
 #login button {
@@ -28,10 +30,17 @@ img {
     width: 100px;
     margin-top: 5px;
     padding: 10px 16px;
-    border: 2px solid black;
+    border: 2px solid #6E6E6E;
     background-color: #f2f2f2;
     color: black;
     font-family: 'Century Gothic' , sans-serif;
+    border-radius: 2px;
+}
+
+#login button:hover {
+   border-color: #6E6E6E;
+   background-color: #6E6E6E;
+   color: white;
 }
 
 
@@ -65,7 +74,7 @@ img {
     .topnav a {
       display: none;
     }
-  
+
     .topnav a.icon {
         display: inline-block;
     }
@@ -73,9 +82,8 @@ img {
     #login {
         display: none;
     }
-    
+
     nav {
         text-align: right;
     }
 }
-
