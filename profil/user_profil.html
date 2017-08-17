@@ -6,19 +6,22 @@
 <meta charset="UTF-8">
     <link href="../navigation/navi.css" type="text/css" rel="stylesheet">
     <link href="user_profil.css" type="text/css" rel="stylesheet">
-	<script src="script.js"></script>
+	<script src="../navigation/navi.js"></script>
     <title>User Profile</title>
 </head>
 
 <body>
+    
+    <!--NAVIGATION-->
   <nav>
 
   <div class="topnav" id="myTopnav">
 
-      <a href="#home">Beliebteste</a>
-      <a href="#news">Neuste</a>
-      <a href="#contact">Entdecken</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <a class="nav" href="#home">Beliebteste</a>
+            <a class="nav" href="#news">Neuste</a>
+            <a class="nav" href="#contact">Entdecken</a>
+            
 
   </div>
   <div id="logo">
@@ -29,12 +32,14 @@
       <button>Login</button>
   </div>
   </nav>
+    
+    <!--NAVIGATION ENDE-->
 
 
     <div id="main_content">
         <div id="user">
             <div id="user_picture">
-                <img src="../data/images/user_picture_example.jpg" alt="User Picture">
+                <img src="../data/images/edd.PNG" alt="User Picture">
             </div>
 
             <div id="user_information">
@@ -59,6 +64,12 @@
             </div>
 
         </div>
+    
+        <div id="next">
+            <a href="#next"><button>Nächster Beitrag</button></a>
+        </div>
+    
+    
     </div>
 
 </body>
