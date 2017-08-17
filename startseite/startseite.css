@@ -2,15 +2,13 @@
 .wrapper-main {
 	display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 45px 0px 300px 250px 420px;
 	grid-row-gap: 1em;
 	grid-column-gap: 1em;
 }
 
 .start-picture {
-	grid-column: 4 / 10 ;
-  grid-row:    2 / 4;
-	margin-top: 1em ;
+	grid-column: 1 / 13 ;
+	grid-row:    2 / 4;
 	background-size: cover;
 	background-width: 100%;
 	background-image: url("e.jpg");
@@ -19,13 +17,18 @@
 	width: 100%;
 }
 
-img {
+#d_pic, #r_pic, #n_pic {
 	float: left;
 	box-sizing: border-box;
 	background-size: cover;
 	background-repeat:no-repeat;
-	max-width: 100%;
+	width: 100%;
+
 }
+
+
+
+
 
 #main_text_ins {
 	text-align: center;
@@ -56,7 +59,7 @@ img {
   font-family: 'Century Gothic';
   text-align: center;
   grid-column: 4 / 10 ;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 #welcome-text {
@@ -64,7 +67,7 @@ img {
   font-family: 'Century Gothic';
   text-align: center;
   grid-column: 4 / 10 ;
-  margin-top: 4%;
+
 }
 
 .search-input-main {
@@ -101,6 +104,7 @@ img {
 	color: white;
 	font-weight: bold;
 	margin-top: 1%;
+	margin-bottom: 2%; 
 	border-radius: 2px;
 }
 

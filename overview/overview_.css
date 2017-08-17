@@ -2,9 +2,9 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 45px 0px 150px 250px 200px 200px 200px;
 	grid-row-gap: 1em;
 	grid-column-gap: 1em;
+	
 
 }
 
@@ -32,8 +32,14 @@
 	color: grey;
 	font-family: 'Century Gothic';
 	font-weight:lighter;
+	margin-bottom: 5%; 
 
 
+}
+
+.overview_box1:hover{
+  -webkit-filter: blur(5px);
+    filter: blur(5px);
 }
 
 .filter_box1:hover{
@@ -43,14 +49,14 @@
 
 
  .overview_pic {
-    grid-column: 4 / 10 ;
+    grid-column: 1 / 13 ;
     grid-row:    2 / 4;
-	margin-top: 1em ;
-  background-image: url("../data/images/user_picture_example.jpg");
+
+  background-image: url("../data/images/map1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .pic_text  {
@@ -65,7 +71,8 @@
     grid-row:    4 / 4;
     background-color: white;
     box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
+    border-radius: 2px; 
+	
 }
 
 
@@ -73,18 +80,23 @@
     grid-column:  4 / 6;
     grid-row:    5 / 5;
 	background-image: url("../data/images/berg.jpg");
+
+
+
 }
 
 .overview_box2{
     grid-column:  6/8;
     grid-row:    5 / 5;
 	background-image: url("../data/images/koln.jpg");
+
 }
 
 .overview_box3{
     grid-column:  8 / 10;
     grid-row:    5 / 5;
 	background-image: url("../data/images/nepal.jpg");
+
 }
 
 .overview_box4 {
@@ -122,6 +134,7 @@
     grid-column:  8 / 10;
     grid-row:    7 / 7;
 	background-image: url("../data/images/paris.jpg");
+
 }
 
 .overview_box1, .overview_box2,.overview_box3, .overview_box4,.overview_box5, .overview_box6, .overview_box7, .overview_box8, .overview_box9{
@@ -131,8 +144,10 @@
 	background-size: cover;
 	background-repeat:no-repeat;
 	max-width: 465px;
-  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
+	box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	max-height: 100%;
+
 }
 
 #name_box1, #name_box2, #name_box3, #name_box4, #name_box5, #name_box6, #name_box7, #name_box8, #name_box9{
@@ -140,7 +155,9 @@
   color: white;
   font-family: 'Century Gothic';
   text-align: center;
-  margin-top: 25%;
+  margin-top: 26%;
+  margin-bottom: 26%;
+ 
 }
 
 
