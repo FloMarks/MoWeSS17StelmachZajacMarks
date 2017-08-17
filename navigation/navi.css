@@ -1,7 +1,6 @@
  html, body{
     margin: 0px;
      font-family: 'Century Gothic' , sans-serif;
-
 }
 
 nav {
@@ -71,19 +70,41 @@ img {
 
 
 @media screen and (max-width: 600px) {
-    .topnav a {
-      display: none;
-    }
 
-    .topnav a.icon {
+    .topnav a{
+        display: none;
+    }
+    
+    .topnav .icon {
         display: inline-block;
     }
-
+    
     #login {
         display: none;
     }
-
+    
     nav {
         text-align: right;
     }
+    
+    
+    .topnav.responsive a.icon {
+        display: inline-block;
+    }
+    
+    .topnav.responsive a {
+        display: block;
+        text-align: left;
+    }
+    
+    
+    img {
+        width: 60px;
+    }
+    
+    #logo {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
 }
+
