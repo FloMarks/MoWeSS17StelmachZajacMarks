@@ -73,7 +73,7 @@ img {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
     
     .topnav a{
         display: none;

@@ -7,6 +7,3 @@ function myFunction() {
     }
 }
 
-function include_header() {
-    document.getElementById("header").innerHTML='<object type="text/html" data="navi.html" ></object>';
-}
