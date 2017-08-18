@@ -66,7 +66,7 @@
 	margin-bottom: 2em;
 }
 
- .overview_text {
+.overview_text {
     grid-column: 4 / 10 ;
     grid-row:    4 / 4;
     background-color: white;
@@ -147,6 +147,7 @@
 	box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
 	max-height: 100%;
+	max-width: 100%; 
 
 }
 
@@ -251,4 +252,144 @@ footer{
   color: #585858;
   font-family: 'Century Gothic';
   margin-top: 3%;
+}
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+
+.overview_text {
+    grid-column: 4 / 10 ;
+    grid-row:    4 / 4;
+	
+}
+
+	 
+.filter_box1, .overview_box1 {
+
+	grid-column:  4 / 7;
+	grid-row:    5 / 5;
+
+}
+
+.filter_box2, .overview_box2{
+
+	grid-column:  7 / 10;
+    grid-row:    5 / 5;
+
+}
+
+.filter_box3, .overview_box3{
+
+	grid-column:  4 / 7;
+    grid-row:    6 / 6;
+
+}
+
+.filter_box4, .overview_box4 {
+    grid-column:  7 / 10;
+    grid-row:    6 / 6;
+
+}
+
+.filter_box5, .overview_box5{
+
+	grid-column:  4 / 7;
+    grid-row:    7 / 7;
+}
+
+.filter_box6, .overview_box6{
+
+	grid-column:  7 / 10;
+    grid-row:    7 / 7;
+
+}
+
+.filter_box7, .overview_box7{
+
+    grid-column:  4 / 7;
+    grid-row:    8 / 8;
+
+}
+
+.filter_box8, .overview_box8{
+
+	grid-column:  7 / 10;
+    grid-row:    8 / 8;
+
+}
+
+.filter_box9, .overview_box9{
+
+	grid-column:  5 / 9;
+    grid-row:    9/ 9;
+}
+
+
+}
+
+/* Media Type smaller than 720px*/
+
+@media screen and (max-width: 720px) {
+	 
+	 
+.overview_text {
+    grid-column: 2 / 12 ;
+    grid-row:    4 / 4;
+	
+}
+	 
+.overview_box1, .filter_box1 {
+    grid-column:  2 / 12;
+    grid-row:    5 / 7;
+
+}
+
+.overview_box2, .filter_box2 {
+    grid-column:  2/ 12;
+    grid-row:    7 / 9;
+
+}
+
+.overview_box3, .filter_box3 {
+    grid-column:  4 / 10;
+    grid-row:    9 / 11;
+
+}
+
+.overview_box4, .filter_box4 {
+    grid-column:  4 / 10;
+    grid-row:    11 / 13;
+}
+
+.overview_box5, .filter_box5 {
+    grid-column:  4 / 10;
+    grid-row:    13 / 15;
+	}
+
+.overview_box6, .filter_box6 {
+    grid-column:  4 / 10;
+    grid-row:    15 / 17;
+}
+
+.overview_box7, .filter_box7 {
+    grid-column:  4 / 10;
+    grid-row:    17 / 19;
+}
+
+
+.overview_box8, .filter_box8{
+    grid-column:  4 / 10;
+    grid-row:    19 / 21;
+}
+
+.overview_box9, .filter_box9 {
+    grid-column:  4 / 10;
+    grid-row:    21 / 23;
+
+}
+
 }
