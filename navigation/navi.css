@@ -68,9 +68,13 @@ img {
     display: none;
 }
 
+.topnav #log {
+    display: none;
+}
+
 
 @media screen and (max-width: 600px) {
-
+    
     .topnav a{
         display: none;
     }
@@ -93,6 +97,12 @@ img {
     }
     
     .topnav.responsive a {
+        display: block;
+        text-align: left;
+    
+    }
+    
+    .topnav.responsive #log {
         display: block;
         text-align: left;
     }
