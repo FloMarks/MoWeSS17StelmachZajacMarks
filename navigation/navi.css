@@ -12,15 +12,31 @@ nav {
 #logo {
     float: left;
     margin-left: 10px;
-    margin-top: 5px;
+
 }
 
 img {
-   width: 100px;
+   width: 50px;
+   margin-left: 90%; 
+   margin-top: 12%; 
+   -webkit-transform: rotate(-40deg);
 }
 
 #login {
     float: right;
+
+}
+
+#icon{
+	
+	font-family: 'Bradley Hand ITC', bold;
+	font-size: 34px; 
+	text-decoration: none; 
+	float: left; 
+	margin-left: 20%; 
+	margin-top: -17%; 
+	color: black; 
+	font-weight: bold; 
 
 }
 
