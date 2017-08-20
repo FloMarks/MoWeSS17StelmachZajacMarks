@@ -355,39 +355,39 @@ footer{
 }
 
 .overview_box3, .filter_box3 {
-    grid-column:  4 / 10;
+    grid-column: 2 / 12 ;
     grid-row:    9 / 11;
 
 }
 
 .overview_box4, .filter_box4 {
-    grid-column:  4 / 10;
+    grid-column: 2 / 12 ;
     grid-row:    11 / 13;
 }
 
 .overview_box5, .filter_box5 {
-    grid-column:  4 / 10;
+    grid-column: 2 / 12 ;
     grid-row:    13 / 15;
 	}
 
 .overview_box6, .filter_box6 {
-    grid-column:  4 / 10;
+    grid-column: 2 / 12 ;
     grid-row:    15 / 17;
 }
 
 .overview_box7, .filter_box7 {
-    grid-column:  4 / 10;
+    grid-column: 2 / 12 ;
     grid-row:    17 / 19;
 }
 
 
 .overview_box8, .filter_box8{
-    grid-column:  4 / 10;
+    grid-column: 2 / 12 ;
     grid-row:    19 / 21;
 }
 
 .overview_box9, .filter_box9 {
-    grid-column:  4 / 10;
+    grid-column: 2 / 12 ;
     grid-row:    21 / 23;
 
 }
