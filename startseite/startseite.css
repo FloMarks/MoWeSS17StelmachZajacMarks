@@ -146,6 +146,40 @@
 	box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
 
+/* Media Type smaller than 1500px*/
+
+@media screen and (max-width: 1500px) {
+
+
+
+
+	 
+.new_box {
+
+	grid-column:  4 / 10;
+	grid-row:    6 / 6;
+
+}
+
+.explore_box{
+
+	grid-column:  4 / 10;
+    grid-row:    7 / 7;
+
+}
+
+.create_box{
+
+	grid-column:  4 / 10;
+    grid-row:    8 / 8;
+
+}
+
+
+
+}
+
+
 /* Media Type smaller than 1080px*/
 
 @media screen and (max-width: 1080px) {
