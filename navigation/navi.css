@@ -12,13 +12,12 @@ nav {
 #logo {
     float: left;
     margin-left: 10px;
-
 }
 
 #icon_pic {
    width: 50px;
-   margin-left: 90%; 
-   margin-top: 12%; 
+   margin-left: 70%; 
+   margin-top: 20px; 
    -webkit-transform: rotate(-40deg);
 }
 
@@ -27,13 +26,12 @@ nav {
 
 }
 
-#icon{
-	
+#icon {
 	font-family: 'Bradley Hand ITC', bold;
 	font-size: 34px; 
 	text-decoration: none; 
 	float: left; 
-	margin-left: 20%; 
+	margin-left: 10px;; 
 	margin-top: -17%; 
 	color: black; 
 	font-weight: bold; 
@@ -41,7 +39,7 @@ nav {
 }
 
 #login button {
-   margin-right: 10px;
+    margin-right: 10px;
     width: 100px;
     margin-top: 5px;
     padding: 10px 16px;
@@ -89,7 +87,7 @@ nav {
 }
 
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 670px) {
     
     .topnav a{
         display: none;
@@ -130,7 +128,7 @@ nav {
     
     #logo {
         margin-left: 10px;
-        margin-top: 15px;
+        margin-top: 0px;
     }
 }
 
