@@ -7,6 +7,7 @@
     <link href="../navigation/navi.css" type="text/css" rel="stylesheet">
     <link href="user_profil.css" type="text/css" rel="stylesheet">
 	<script src="../navigation/navi.js"></script>
+    <script src="ajax.js"></script>
     <title>User Profile</title>
 </head>
 
@@ -25,7 +26,8 @@
 
   </div>
   <div id="logo">
-      <img src="../navigation/blue-pencil-horizontal-hi.png">
+      <img id="icon_pic" src="blue-pencil-horizontal-hi.png">
+			<a id="icon" href="#pavels">Pavel's</a>
   </div>
 
   <div id="login">
@@ -35,7 +37,7 @@
  
 </header> 
 <!--NAVIGATION ENDE-->
-
+        
 <!--MAIN-CONTENT-->
 <body>
     <div id="main_content">
@@ -68,12 +70,12 @@
         </div>
     
         <div id="next">
-            <a href="#next"><button>Nächster Beitrag</button></a>
+           <button type="button" onclick="showPost();">Nächster Beitrag</button>
         </div>
     
     
     </div>
 </body>
  <!--MAIN-CONTENT ENDE-->
-
+    
 </html>
