@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
                 $sql2 = "INSERT INTO users (user_name, user_email, user_pwd) VALUES ('$uname', '$uemail', '$hashedPwd');";
                 mysqli_query($conn, $sql2);
                 
-                header("Location: ../index.php?register=success");
+                header("Location: ../login.php?register=success");
                 exit();
             }
         }

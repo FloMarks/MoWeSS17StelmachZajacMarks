@@ -1,5 +1,5 @@
 body {
-  background-color: #f8e5c8;
+  background-color: #EFF8FB;
 }
 
 footer{
@@ -11,9 +11,10 @@ footer{
 }
 
 .opening-picture {
-  background-image: url(map.jpg);
+  background-image: url("../images/karte.jpg");
   padding: 3%;
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 , p {
@@ -23,7 +24,7 @@ h1 , p {
 }
 
 .add-picture, .save, .quit {
-  background-color: #CC9655;
+  background-color: #58ACFA;
   padding: 14px 20px;
   margin: 10px;
   border: none;
@@ -37,7 +38,7 @@ h1 , p {
 }
 
 .add-picture:hover, .save:hover, .quit:hover {
-  background-color: #61380B;
+  background-color: #084B8A;
 }
 
 .inputs {
@@ -83,7 +84,16 @@ h1 , p {
   text-align: center;
 }
 
-form {
+#alert {
+   font-family: 'Century Gothic';
+    text-align: center;
+}
+
+.content-section {
+  margin-top: 3%;
+}
+
+#input_form {
     text-align: center;
     padding-top: 6%;
 }

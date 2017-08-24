@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
                     $_SESSION['user_email'] = $row['user_email'];
                     $_SESSION['user_pwd'] = $row['user_pwd'];
                     
-                    header("Location: ../index.php?login=success");
+                    header("Location: ../../startseite/startseite.php?login=success");
                     exit();
                 }
             }
@@ -48,6 +48,6 @@ if(isset($_POST['submit'])){
     }
     
 } else {
-    header("Location: ../index.php?login=error");
+    header("Location: ../login.php?login=error");
     exit();
 }

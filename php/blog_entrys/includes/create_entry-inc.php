@@ -26,10 +26,18 @@ if(isset($_POST['submit'])){
             header("Location: ../create_entry.php?create=titletaken");
             exit();
         } else {
+            
+            $sql = "SELECT * FROM blog_entry WHERE user_name='$uname'";
+            $result = mysqli_query($conn, $sql);
+            $count = mysqli_num_rows($result);
+            
+            $sql = "UPDATE users SET blog_count=$count WHERE user_name='$uname'";
+            $result = mysqli_query($conn, $sql);
+            
             //save data in db
-            $sql2 = "INSERT INTO blog_entry (user_name, title, place, content, date) VALUES ('$uname', '$title', '$place', '$content', NOW());";
+            $sql2 = "INSERT INTO blog_entry (user_name, title, place, content, date, blog_count) VALUES ('$uname', '$title', '$place', '$content', NOW(), $count);";
             mysqli_query($conn, $sql2);
-
+        
             header("Location: ../blog_entry.php?create=success");
             exit();
         }

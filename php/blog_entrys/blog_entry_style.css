@@ -1,22 +1,19 @@
-#map {
-  width: 40%;
-  height: 55%;
-  float: left;
-  margin-left: 9%;
-  display: block;
-}
+
 /* Optional: Makes the sample page fill the window. */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f8e5c8;
+  background-color: #EFF8FB;
 }
 
 /*Als Opening Picture wird das hochgeladene Bild verwendet --> soweit das geht*/
 .opening-picture {
-  background-image: url(map.jpg);
+  background-image: url("../images/surfer.jpg");
   padding: 3%;
+  margin-top: 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -32,12 +29,14 @@ p {
 
 .blog-content, .blog-info {
   background-color: white;
-  color: #585858;
+  color: #6E6E6E;
+  font-family: 'Century Gothic';
   width: 39%;
   margin-top: 2%;
   padding: 0.5%;
   border-radius: 2px;
   display: block;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
 
 .blog-content {
@@ -52,6 +51,14 @@ p {
   margin-bottom: 2%;
 }
 
+#map {
+  width: 40%;
+  height: 55%;
+  float: left;
+  margin-left: 9%;
+  display: block;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+}
 
 .title {
   font-weight: bold;
@@ -65,18 +72,22 @@ p {
   display: inline;
 }
 
-form {
-    text-align: center;
-    padding-top: 6%;
+.content {
+    height: 900px;
+    width: 100%;
 }
 
 footer{
   text-align: center;
   color: #585858;
   font-family: 'Century Gothic';
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 2%;
-  margin-left: -10%;
+  margin-left: 45%;
   float: left;
   display: block;
+}
+
+.content {
+  margin-top: 2%;
 }
