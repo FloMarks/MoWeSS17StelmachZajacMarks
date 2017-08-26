@@ -88,6 +88,10 @@ footer{
   display: block;
 }
 
+#address {
+  display: none;
+}
+
 .content {
   margin-top: 2%;
 }

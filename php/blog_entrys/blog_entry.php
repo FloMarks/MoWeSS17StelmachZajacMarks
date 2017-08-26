@@ -13,21 +13,21 @@ session_start();
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="../navigation/navi_code.js"></script>
   </head>
- 
-   <!--NAVIGATION--> 
+
+   <!--NAVIGATION-->
     <?php include("../navigation/navi.php");?>
-    
+
 <body>
 
       <?php
             //write mysql data in html fields
             $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
             $sql = "SELECT * from blog_entry ORDER BY blog_entry_id DESC LIMIT 1";
-      
+
             foreach ($pdo->query($sql) as $row);
       ?>
-      
-      
+
+
 	<div class = "opening-picture">
         <h1><?php echo $row['title'] ;?></h1>
   </div>
@@ -44,10 +44,12 @@ session_start();
     </p>
   </div>
   
-
-  <!--<input id="pac-input" class="controls" type="text"
-      placeholder="Enter a location">-->
   <div id="map"></div>
+  <div id="floating-panel">
+     <input id="address" type="textbox" value="<?php echo $row['place'] ;?>">
+   </div>
+
+
   <div id="infowindow-content">
     <span id="place-name"  class="title"></span><br>
     Place ID <span id="place-id"></span><br>
@@ -60,8 +62,9 @@ session_start();
   </footer>
 
   <script src = "map.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoHIww69uVIXblRNsiIwOh3A1oAtPJIwI&libraries=places&callback=initMap"
-      async defer></script>
-  </body>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoHIww69uVIXblRNsiIwOh3A1oAtPJIwI&callback=initMap">
+  </script>
+</body>
 
 </html>
