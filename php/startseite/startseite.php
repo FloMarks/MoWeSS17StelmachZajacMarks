@@ -22,7 +22,7 @@ session_start();
     <div class="wrapper-main">
 
         <div class="start-picture">
-            <h1 id="welcome">Willkommen bei Pavels</h1>
+            <h1 id="welcome">Willkommen bei Pavel's</h1>
             <p id ="welcome-text">Halte unvergessliche Reisemomente fest und teile deine Abenteuer mit anderen Menschen. Lass dich von tausenden Storys aus der ganzen Welt beeindrucken und plane deinen Trip.</p>
 
             <div class = "search-main">
@@ -67,7 +67,7 @@ session_start();
           <h3>Entdecke Neues</h3>
           <img id="d_pic" src="../images/13.jpeg" alt="Entecke ausgewählte Beiträge" class="ctb-image-icon">
           <p class = "d_info">Tokio, Köln oder doch die Maledieven? Inspiration gefällig? Dann schau dir die Beiträge unserer Traveler an. Vielleicht findest du deine nächste Reise genau hier.</p>
-          <a class="link" href="Link zum Beitrag">entdecken</a>
+          <a class="link" href="../overview/overview.php">entdecken</a>
         </div>
 
         <div class = "create_box">
@@ -85,7 +85,7 @@ session_start();
 
 
 	    <footer>
-        <span class="copyright">Bleistift-Reisen © 2017</span>
+        <span class="copyright">Pavel's © 2017</span>
         <div class="madefor">Gemacht mit 💚 für Euch Entdecker</div>
     </footer>
 

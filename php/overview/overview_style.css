@@ -66,7 +66,7 @@
 .overview_box1 {
     grid-column:  4 / 6;
     grid-row:    5 / 5;
-	background-image: url("../images/berg.jpg");
+	background-image: url("../images/pompeji.jpg");
 
 
 
@@ -114,7 +114,7 @@
 .overview_box8{
     grid-column:  6 / 8;
     grid-row:    7 / 7;
-	background-image: url("../images/wueste.jpg");
+	background-image: url("../images/kolumbien.jpg");
 }
 
 .overview_box9{
@@ -145,7 +145,13 @@
   text-align: center;
   margin-top: 26%;
   margin-bottom: 26%;
+  font-size: 170%;
+
  
+}
+
+a{
+	  text-decoration: none; 
 }
 
 

@@ -22,8 +22,12 @@ session_start();
       <?php
             //write mysql data in html fields
             $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
-            $sql = "SELECT * from blog_entry ORDER BY blog_entry_id DESC LIMIT 1";
-
+		
+			$place = $_GET["search"];
+			$sql = "SELECT * from blog_entry WHERE place='$place'";
+			
+			//$sql = "SELECT * from blog_entry ORDER BY blog_entry_id DESC LIMIT 1";
+			
             foreach ($pdo->query($sql) as $row);
       ?>
 
@@ -57,8 +61,8 @@ session_start();
   </div>
 
   <footer>
-        <span class="copyright">Bleistift-Reisen Â© 2017</span>
-        <div class="madefor">Gemacht mit ðŸ’š fÃ¼r Euch Entdecker</div>
+        <span class="copyright">Pavel's © 2017</span>
+        <div class="madefor">Gemacht mit ?? für Euch Entdecker</div>
   </footer>
 
   <script src = "map.js"></script>
