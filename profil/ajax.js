@@ -12,6 +12,6 @@ function showPost() {
                 document.getElementById("txtHint").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","getuser.php?q="+str,true);
+        xmlhttp.open("GET", "user_profile-inc.php", true);
         xmlhttp.send();
 }
