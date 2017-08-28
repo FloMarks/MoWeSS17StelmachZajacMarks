@@ -1,5 +1,6 @@
 body {
   background-color: #EFF8FB;
+  	min-width: 480px;
 }
 
 footer{
@@ -15,6 +16,7 @@ footer{
   padding: 3%;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -2%; 
 }
 
 h1 , p {
@@ -42,6 +44,7 @@ h1 , p {
 }
 
 .inputs {
+	margin-top: -5%; 
   text-align: center;
   font-family: 'Century Gothic';
 }
@@ -84,6 +87,8 @@ h1 , p {
   text-align: center;
 }
 
+
+
 #alert {
    font-family: 'Century Gothic';
     text-align: center;
@@ -96,4 +101,40 @@ h1 , p {
 #input_form {
     text-align: center;
     padding-top: 6%;
+}
+
+
+@media screen and (max-width: 480px) {
+	
+.add-picture{
+	width: 81%;
+	text-align: center;
+
+	
+}
+
+.save{
+	width: 81%;
+	text-align: center;
+
+	
+}
+
+.quit{
+	width: 81%;
+	text-align: center;
+
+	
+}	
+
+#entry-title, #place {
+	width: 81%;
+	text-align: center;
+	
+}
+
+#place{
+
+	  margin-top: 0%;
+	
 }
