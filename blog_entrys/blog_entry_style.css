@@ -1,39 +1,67 @@
 
 /* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #EFF8FB;
+.wrapper {
+	
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+	
+
 }
 
 /*Als Opening Picture wird das hochgeladene Bild verwendet --> soweit das geht*/
 .opening-picture {
-  background-image: url("../images/surfer.jpg");
-  padding: 3%;
-  margin-top: 3%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
+    grid-column: 1 / 13 ;
+    grid-row:    2 / 4;
+	background-image: url("../images/surfer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
 }
 
 h1 {
+	
+	grid-column: 1 / 13 ;
+    grid-row:    2 / 4;
   color: white;
   font-family: 'Century Gothic';
   text-align: center;
+  font-weight: bold;
+  margin-top: 2em; 
+  margin-bottom: 2em; 
 }
 
 p {
   color: #0000;
   font-family: 'Century Gothic';
+  margin-left: 2%;
+  margin-right: 2%; 
 }
+
+.blog-info{
+	
+	grid-column: 4 / 6 ;
+    grid-row:    4 / 4;
+	max-height: 125px; 
+
+	
+}
+
+.blog-content{
+	
+	grid-column: 6 / 10 ;
+    grid-row:    4 / 4;
+
+}
+
+
 
 .blog-content, .blog-info {
   background-color: white;
   color: #6E6E6E;
   font-family: 'Century Gothic';
-  width: 39%;
-  margin-top: 2%;
-  padding: 0.5%;
   border-radius: 2px;
   display: block;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
@@ -41,21 +69,17 @@ p {
 
 .blog-content {
   float: right;
-  margin-right: 9%;
+
 
 }
 
-.blog-info {
-  float: left;
-  margin-left: 9%;
-  margin-bottom: 2%;
-}
 
 #map {
-  width: 40%;
-  height: 55%;
-  float: left;
-  margin-left: 9%;
+
+	grid-column: 6 / 10 ;
+	grid-row: 5/25; 
+	
+	
   display: block;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
@@ -68,9 +92,9 @@ p {
   display: none;
 }
 
-#map #infowindow-content {
-  display: inline;
-}
+
+
+
 
 .content {
     height: 900px;
@@ -94,4 +118,65 @@ footer{
 
 .content {
   margin-top: 2%;
+}
+
+@media screen and (max-width: 1080px) {
+	
+	.blog-info{
+	
+	grid-column: 4 / 10 ;
+    grid-row:    4 / 4;
+ 
+
+	
+}
+
+.blog-content{
+	
+	grid-column: 4 / 10 ;
+    grid-row:    5 / 5;
+
+}
+
+#map {
+
+	grid-column: 4 / 10 ;
+	grid-row: 6/20; 
+	
+	
+  display: block;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+}
+
+}
+
+@media screen and (max-width: 720px) {
+		
+.blog-info{
+	
+	grid-column: 2 / 12 ;
+    grid-row:    4 / 4;
+ 
+
+	
+}
+
+.blog-content{
+	
+	grid-column: 2 / 12 ;
+    grid-row:    5 / 5;
+
+}
+
+#map {
+
+	grid-column: 2 / 12 ;
+	grid-row: 6/20; 
+	
+	
+  display: block;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+}
+	
+	
 }

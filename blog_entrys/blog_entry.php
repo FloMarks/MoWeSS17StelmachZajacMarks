@@ -19,6 +19,8 @@ session_start();
 
 <body>
 
+	 <div class="wrapper">
+
       <?php
             //write mysql data in html fields
             $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
@@ -65,6 +67,7 @@ session_start();
   <div id="floating-panel">
      <input id="address" type="textbox" value="<?php echo $row['place'] ;?>">
    </div>
+ 
 
 
   <div id="infowindow-content">
@@ -72,7 +75,8 @@ session_start();
     Place ID <span id="place-id"></span><br>
     <span id="place-address"></span>
   </div>
-
+</div>
+  
   <footer>
         <span class="copyright">Pavel's © 2017</span>
         <div class="madefor">Gemacht mit ?? für Euch Entdecker</div>

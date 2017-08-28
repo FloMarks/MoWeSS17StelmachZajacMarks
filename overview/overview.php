@@ -21,8 +21,7 @@ session_start();
 
     <div class="wrapper">
 
-		<div class="box overview_pic"></div>
-		<div class="box pic_text"><h1 id="welcome">Werde zum Entdecker</h1></div>
+		<div class="box overview_pic"><h1 id="welcome">Werde zum Entdecker</h1></div>
 		<div class="box overview_text"><h2 id="overview_text_ins">Lass dich inspirieren</h2>
 		<h3 id="overview_text_info">
 		Hier findest du eine Auswahl einiger Orte welche unsere Traveler bereist haben. Von Australien bis Zypern unsere Traveler

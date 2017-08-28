@@ -10,6 +10,11 @@
 
 
 #welcome {
+	
+	grid-column: 4 / 10 ;
+    grid-row:    2 / 4;
+	margin-top: 2em;
+	margin-bottom: 2em;	
   color: white;
   font-family: 'Century Gothic';
   text-align: center;
@@ -40,18 +45,15 @@
  .overview_pic {
     grid-column: 1 / 13 ;
     grid-row:    2 / 4;
-  background-image: url("../images/map1.jpg");
+	background-image: url("../images/map1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
 }
 
-.pic_text  {
-    grid-column: 4 / 10 ;
-    grid-row:    2 / 4;
-	margin-top: 3em;
-	margin-bottom: 2em;
-}
+/*.pic_text  {
+
+}*/
 
 .overview_text {
     grid-column: 4 / 10 ;
