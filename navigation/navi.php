@@ -34,22 +34,24 @@
 
         </div>
 		
-		
             <?php 
                 if(isset($_SESSION['user_id'])){
+                    
+                    $username = $_SESSION['user_name'];
+                    
                     echo '<form class="log_sys" action="../login_system/includes/logout-inc.php" method="POST">
                     <button type="submit" name="submit">Logout</button>
+                    <a id="prof" href="../profil/user_profil.php?profil='.$username.'">Profil</a>
                     </form>';
                 } else {
                     echo '<div class="log_sys">
-                    <a href="../login_system/login.php"><button>Login</button></a>
+                    <a id="log_btn" href="../login_system/login.php"><button>Login</button></a>
                     </div>';
                 }
             ?>
         
         </nav>
     
-
     </body>
 
 

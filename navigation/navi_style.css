@@ -13,11 +13,18 @@ nav {
 #logo {
     float: left;
     margin-left: 10px;
+    width: 220px;
+}
+
+
+#log_btn button{
+  width: 150px;
+    margin-left: 40px;
 }
 
 #icon_pic {
    width: 50px;
-   margin-left: 70%; 
+   margin-left: 28%; 
    margin-top: 20px; 
    -webkit-transform: rotate(-40deg);
 }
@@ -32,7 +39,7 @@ nav {
 	text-decoration: none; 
 	float: left; 
 	margin-left: 10px;; 
-	margin-top: -17%; 
+	margin-top: -13%; 
 	color: black; 
 	font-weight: bold; 
 
@@ -48,9 +55,33 @@ nav {
     color: black;
     font-family: 'Century Gothic' , sans-serif;
     border-radius: 2px;
+    font-size: 14px;
 }
 
+#prof {
+    margin-right: 10px;
+    width: 100px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: 2px solid #6E6E6E;
+    background-color: #f2f2f2;
+    color: black;
+    font-family: 'Century Gothic' , sans-serif;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
 .log_sys button:hover {
+   border-color: #6E6E6E;
+   background-color: #6E6E6E;
+   color: white;
+}
+
+.log_sys #prof:hover {
    border-color: #6E6E6E;
    background-color: #6E6E6E;
    color: white;
@@ -106,7 +137,7 @@ nav {
 }
 
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 860px) {
     
     .topnav a, .topnav #logout button {
         display: none;
@@ -143,14 +174,18 @@ nav {
         text-align: left;
     }
     
-    
-    img {
-        width: 60px;
+    #logo {
+        width: 166px;
     }
     
-    #logo {
-        margin-left: 10px;
-        margin-top: 0px;
+    #icon {
+        font-family: 'Bradley Hand ITC', bold;
+        font-size: 34px; 
+        text-decoration: none; 
+        float: left; 
+        margin-left: 10px;; 
+        margin-top: -17.5%; 
+        color: black; 
+        font-weight: bold; 
     }
 }
-
