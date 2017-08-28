@@ -24,28 +24,28 @@ session_start();
                 });
             });
         });
-        
-        
+
+
     </script>
 </head>
 
-<!--NAVIGATION--> 
+<!--NAVIGATION-->
 <?php include("../navigation/navi.php");?>
 
-        
+
 <!--MAIN-CONTENT-->
-     
+
 <?php
     if(isset($_GET['profil'])){
         $name = $_GET['profil'];
-    
+
         //write mysql data in html fields (blog)
         $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
         $sql = "SELECT * FROM blog_entry WHERE user_name='$name'";
 
         foreach ($pdo->query($sql) as $row);
-        
-        
+
+
         //write mysql data in html fields (user)
         $pdo2 = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
         $sql2 = "SELECT * FROM users WHERE user_name='$name'";
@@ -53,8 +53,8 @@ session_start();
         foreach ($pdo2->query($sql2) as $row2);
     }
 ?>
-    
-    
+
+
 <body>
     <div id="main_content">
         <div id="user">
@@ -73,7 +73,7 @@ session_start();
                   </section>
             </div>
         </div>
-        
+
         <div id="user_posts">
             <div class="post" id="entry">
               <?php
@@ -83,15 +83,15 @@ session_start();
                     //write mysql data in html fields (blog)
                     $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
                     $sql = "SELECT * FROM blog_entry WHERE user_name='$name'";
-                    
-                    
+
+
                     foreach ($pdo->query($sql) as $row);
-                    
+
                     $title = "title";
                     $preview = "preview";
                     $more = "more";
                     $tag = $row['blog_entry_id'];
-                    
+
                     echo '<p id="'.$title.'">';
                     echo $row['title'];
                     echo "</p>";
@@ -100,21 +100,26 @@ session_start();
                     echo $row['content'];
                     echo '<a id="'.$more.'" href="../blog_entrys/blog_entry.php?id_search='.$tag.'">zum Eintrag...</a>';
                     echo "</p>";
-                    
-                } 
+
+                }
                 ?>
 
             </div>
 
         </div>
-    
+
         <div id="next">
            <button id="next_entry" type="button">Nächster Beitrag</button>
         </div>
-    
-    
+
+
     </div>
+
+    <footer>
+      <span class="copyright">Pavel's © 2017</span>
+      <div class="madefor">Gemacht mit 💚 für Euch Entdecker<br>von Florian, Simone und Valerij</div>
+  </footer>
 </body>
  <!--MAIN-CONTENT ENDE-->
-    
+
 </html>

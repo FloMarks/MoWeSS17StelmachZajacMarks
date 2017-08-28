@@ -24,7 +24,7 @@ session_start();
       <?php
             //write mysql data in html fields
             $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
-		
+
             if(isset($_GET["search"])){
                 $place = $_GET["search"];
                 $sql = "SELECT * from blog_entry WHERE place='$place'";
@@ -36,7 +36,7 @@ session_start();
             } else if(isset($_GET["newest_search"])) {
                 $sql = "SELECT * from blog_entry ORDER BY blog_entry_id DESC LIMIT 1";
                 foreach ($pdo->query($sql) as $row);
-            }      
+            }
     ?>
 
 
@@ -47,7 +47,7 @@ session_start();
   <div class = "blog-info">
     <p>Nutzer: <?php
         $name = $row['user_name'];
-        
+
         echo '<a href="../profil/user_profil.php?profil='.$name.'">';
         echo $row['user_name'];
         echo '</a>';
@@ -62,12 +62,12 @@ session_start();
      <?php echo $row['content'] ;?>
     </p>
   </div>
-  
+
   <div id="map"></div>
   <div id="floating-panel">
      <input id="address" type="textbox" value="<?php echo $row['place'] ;?>">
    </div>
- 
+
 
 
   <div id="infowindow-content">
@@ -76,11 +76,13 @@ session_start();
     <span id="place-address"></span>
   </div>
 </div>
-  
-  <footer>
-        <span class="copyright">Pavel's © 2017</span>
-        <div class="madefor">Gemacht mit ?? für Euch Entdecker</div>
+
+
+    <footer>
+      <span class="copyright">Pavel's Â© 2017</span>
+      <div class="madefor">Gemacht mit ðŸ’š fÃ¼r Euch Entdecker<br>von Florian, Simone und Valerij</div>
   </footer>
+
 
   <script src = "map.js"></script>
   <script async defer

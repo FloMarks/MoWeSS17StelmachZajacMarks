@@ -13,11 +13,11 @@ session_start();
       <link href="../navigation/navi_style.css" type="text/css" rel="stylesheet">
        <script src="../navigation/navi_code.js"></script>
     </head>
-    
-<!--NAVIGATION--> 
+
+<!--NAVIGATION-->
 <?php include("../navigation/navi.php");?>
-  
- <?php 
+
+ <?php
                 if(isset($_SESSION['user_id'])){
                     echo '<body>
                     <div class = "content-section">
@@ -44,7 +44,7 @@ session_start();
                         </div>
                     <footer>
                           <span class="copyright">Bleistift-Reisen © 2017</span>
-                          <div class="madefor">Gemacht mit 💚 für Euch Entdecker</div>
+                          <div class="madefor">Gemacht mit 💚 für Euch Entdecker<br>von Florian, Valerij und Simone</div>
                     </footer>
                   </body>
                 ';

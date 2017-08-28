@@ -6,7 +6,7 @@ session_start();
 <html lang="de">
   <head>
     <title>Dein Reisetagebuch</title>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
       <link href="startseite_style.css" type="text/css" rel="stylesheet">
@@ -14,10 +14,10 @@ session_start();
       <script src="../navigation/navi_code.js"></script>
 </head>
 
-    <!--NAVIGATION--> 
+    <!--NAVIGATION-->
     <?php include("../navigation/navi.php");?>
 
-    
+
   <body>
     <div class="wrapper-main">
 
@@ -39,8 +39,8 @@ session_start();
 		Mehr als 30.000 Reisende auf der ganzen Welt. Halte unvergessliche Reisemomente fest und teile deine
 		Abenteuer mit anderen Menschen. Lass dich von tausenden Storys aus der ganzen
 		Welt beeindrucken und plane deinen Trip</h3>
-		  
-              <?php 
+
+              <?php
                 if(isset($_SESSION['user_id'])){
                      echo '<div class="login-buttons-main">
                     <a href="../blog_entrys/create_entry.php">Beitrag erstellen</a>
@@ -49,19 +49,19 @@ session_start();
                     echo '<div class="login-buttons-main">
                     <a href="../login_system/login.php">Login</a>
                     <a href="../login_system/register.php">Registrieren</a>
-                    </div>';  
+                    </div>';
                 }
             ?>
-            
+
 		</div>
-        
+
 		<div class = "new_box">
           <h3>Neuster Beitrag</h3>
           <img id="n_pic" src="../images/12.jpeg" alt="Neuste Beiträge" class="ctb-image-icon">
           <p class = "n_info">Entdecke die Neusten Beiträge unserer Traveler. Lass dich an andere Orte bringe und erhalte Geheimtipps, Ideen und die besten Erfahrungen. Schaue dir jetzt den neusten Beitrag an. </p>
 		  <a class="link" href="../blog_entrys/blog_entry.php?newest_search=true">weiterlesen</a>
         </div>
-		
+
 
         <div class = "explore_box">
           <h3>Entdecke Neues</h3>
@@ -86,7 +86,7 @@ session_start();
 
 	    <footer>
         <span class="copyright">Pavel's © 2017</span>
-        <div class="madefor">Gemacht mit 💚 für Euch Entdecker</div>
+        <div class="madefor">Gemacht mit 💚 für Euch Entdecker<br>von Florian, Simone und Valerij</div>
     </footer>
 
   </body>

@@ -13,10 +13,10 @@ session_start();
     <title>Entdecken</title>
 </head>
 
-<!--NAVIGATION--> 
+<!--NAVIGATION-->
 <?php include("../navigation/navi.php");?>
 
-    
+
 <body>
 
     <div class="wrapper">
@@ -28,9 +28,9 @@ session_start();
 			waren überall und teilen mit uns Ihre Erfahrungen. Trage deinen Teil bei und schreibe uns deine Erfahrungen und vernetze
 			dich mit anderen Reisenden!</h3>
 		</div>
-		
-		
-		
+
+
+
 		<div class="box overview_box1"></div>
 				<div class="box filter_box1"><a href="../blog_entrys/blog_entry.php?search=Pompeji"><h1 id="name_box1">Pompeji</h1></div></a>
 		<div class="box overview_box2"></div>
@@ -53,7 +53,7 @@ session_start();
 
     <footer>
         <span class="copyright">Pavel's © 2017</span>
-        <div class="madefor">Gemacht mit 💚 für Euch Entdecker</div>
+        <div class="madefor">Gemacht mit 💚 für Euch Entdecker<br>von Florian, Simone und Valerij</div>
     </footer>
 
 
