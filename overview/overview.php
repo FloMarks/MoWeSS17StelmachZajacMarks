@@ -10,7 +10,7 @@ session_start();
       <link href="overview_style.css" type="text/css" rel="stylesheet">
   	  <link href="../navigation/navi_style.css" type="text/css" rel="stylesheet">
   	  <script src="../navigation/navi_code.js"></script>
-      <title>Entdecken</title>
+      <title>Entdecken neue Orte</title>
   </head>
 
   <!--NAVIGATION-->

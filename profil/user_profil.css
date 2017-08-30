@@ -41,6 +41,7 @@ header nav h1 {
 }
 
 
+
 #user_information {
   float: left;
   margin-top: 1em;
@@ -147,7 +148,6 @@ footer {
   text-align: center;
   color: #585858;
   font-family: 'Century Gothic';
-
   margin-bottom: 1%;
   margin-left: 45%;
   float: left;
@@ -207,11 +207,27 @@ footer {
 
     #next {
       display: inline-block;
+	  z-index: 1; 
     }
 
     #next button {
-      margin-bottom: 20px;
+	
+	  margin-right: 45px; 
+	  margin-left: 10px; 
+	  margin-bottom: 10px;
     }
+	
+	footer {
+	text-align: center;
+	color: #585858;
+	font-family: 'Century Gothic';
+	margin-top: 15%; 
+	margin-bottom: 1%;
+	margin-left: 32%;
+	float: left;
+	display: block;
+	z-index: 2; 
+	}
 }
 
 @media only screen and (max-width: 770px) {
@@ -238,4 +254,15 @@ footer {
     #next button {
       margin-right: 0px;
     }
+	
+	footer {
+	text-align: center;
+	color: #585858;
+	font-family: 'Century Gothic';
+	margin-top: 200%; 
+	margin-bottom: 1%;
+	margin-left: 32%;
+	float: left;
+	display: block;
+	}
 }

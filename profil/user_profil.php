@@ -60,7 +60,7 @@ session_start();
         </div>
 
         <div id="user_information">
-          <section>
+          <section id="u_info">
             <p>Informationen</p>
               <ul>
                 <li>Name: <?php echo $row2['user_name'] ;?></li>
@@ -105,12 +105,14 @@ session_start();
       <div id="next">
         <button id="next_entry" type="button">Nächster Beitrag</button>
       </div>
-    </div>
-
-    <footer>
+	 <footer>
       <span class="copyright">Pavel's © 2017</span>
       <div class="madefor">Gemacht mit 💚 für Euch Entdecker<br>von Florian, Simone und Valerij</div>
     </footer>
+    </div>
+
   </body>
+
  <!--MAIN-CONTENT ENDE-->
+
 </html>
