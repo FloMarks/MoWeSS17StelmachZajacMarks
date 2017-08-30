@@ -1,13 +1,13 @@
 <?php
 
-  include_once 'dbh-inc.php';
-
+    include_once 'dbh-inc.php';
+    
   session_start();
 
-  if(isset($_SESSION['user_name'])){
+  if(isset($_SESSION['cur_user'])){
 
     $cur = $_POST['cur'];
-    $name = $_SESSION['user_name'];
+    $name = $_SESSION['cur_user'];
 
     $sql = "SELECT * FROM blog_entry WHERE user_name='$name'";
     $result = mysqli_query($conn, $sql);

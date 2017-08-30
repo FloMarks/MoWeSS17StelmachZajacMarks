@@ -36,7 +36,8 @@ session_start();
   <?php
     if(isset($_GET['profil'])){
       $name = $_GET['profil'];
-
+      $_SESSION['cur_user'] = $name;  
+        
       //write mysql data in html fields (blog)
       $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
       $sql = "SELECT * FROM blog_entry WHERE user_name='$name'";
@@ -73,8 +74,8 @@ session_start();
       <div id="user_posts">
         <div class="post" id="entry">
           <?php
-            if(isset($_SESSION['user_name'])){
-              $name = $_SESSION['user_name'];
+            if(isset($_GET['profil'])){
+              $name = $_GET['profil'];
 
               //write mysql data in html fields (blog)
               $pdo = new PDO('mysql:host=localhost;dbname=login_system', 'root', '');
