@@ -145,20 +145,20 @@ header nav h1 {
 }
 
 footer {
-  text-align: center;
   color: #585858;
   font-family: 'Century Gothic';
-  margin-bottom: 1%;
-  margin-left: 45%;
-  float: left;
-  display: block;
+  margin-bottom: 1em;
+}
+
+.madefor, .copyright {
+    text-align: center;
 }
 
 /* Responsive options */
 @media only screen and (max-width: 980px) {
 
     #main_content {
-      height: 300px;
+      height: 1200px;
       width: 90%;
       text-align: center;
     }
@@ -211,27 +211,29 @@ footer {
     }
 
     #next button {
-	
 	  margin-right: 45px; 
 	  margin-left: 10px; 
 	  margin-bottom: 10px;
     }
 	
-	footer {
-	text-align: center;
-	color: #585858;
-	font-family: 'Century Gothic';
-	margin-top: 15%; 
-	margin-bottom: 1%;
-	margin-left: 32%;
-	float: left;
-	display: block;
-	z-index: 2; 
-	}
+footer {
+  color: #585858;
+  font-family: 'Century Gothic';
+  margin-bottom: 1em;
+}
+
+.madefor{
+    text-align: center;
+}
+
 }
 
 @media only screen and (max-width: 770px) {
 
+    #main_content {
+        height: 1400px;
+    }
+    
     #user {
       height: 530px;
     }
@@ -256,14 +258,13 @@ footer {
     }
 	
 	footer {
-	text-align: center;
-	color: #585858;
-	font-family: 'Century Gothic';
-	margin-top: 200%; 
-	margin-bottom: 1%;
-	margin-left: 32%;
-	float: left;
-	display: block;
-	 font-size: 12px;
-	}
+  color: #585858;
+  font-family: 'Century Gothic';
+  margin-bottom: 1em;
+}
+
+.madefor, .copyright {
+    text-align: center;
+}
+
 }

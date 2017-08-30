@@ -105,12 +105,11 @@ session_start();
       <div id="next">
         <button id="next_entry" type="button">Nächster Beitrag</button>
       </div>
-	 <footer>
-      <span class="copyright">Pavel's © 2017</span>
-      <div class="madefor">Gemacht mit 💚 für Euch Entdecker<br>von Florian, Simone und Valerij</div>
-    </footer>
     </div>
 
+    <footer>
+      <div class="madefor">Pavel's © 2017 <br> Gemacht mit 💚 für Euch Entdecker<br>von Florian, Simone und Valerij</div>
+    </footer>
   </body>
 
  <!--MAIN-CONTENT ENDE-->
