@@ -182,3 +182,26 @@ nav {
     font-weight: bold;
   }
 }
+
+
+@media screen and (max-width: 480px) { 
+
+    #icon_pic {
+        width: 40px;
+        margin-left: 10%;
+        margin-top: 25px;
+        -webkit-transform: rotate(-40deg);
+    }
+
+    
+    #icon {
+        display: none;
+    }
+    
+    #logo {
+        float: left;
+        margin-left: 10px;
+        width: 30px;
+    }
+
+}
