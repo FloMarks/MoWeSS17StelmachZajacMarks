@@ -45,9 +45,8 @@ button {
 }
 
 #submit{
-    font-size: 1.4em;  
+    font-size: 1.4em;
 }
-
 
 #space {
     background-color: rgba(0, 0, 0, 0.5);
@@ -62,7 +61,6 @@ button:hover {
     margin: 0;
     display: inline;
 }
-
 
 /* Extra style for the cancel button (red) */
 .cancelbtn {
@@ -82,7 +80,6 @@ button:hover {
     padding: 10px 50px;
     width: auto;
 }
-
 
 /*Set sytle for Links*/
 a:link {
@@ -115,11 +112,13 @@ span.psw {
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
+
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
 }

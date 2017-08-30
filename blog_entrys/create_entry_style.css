@@ -3,7 +3,7 @@ body {
   	min-width: 480px;
 }
 
-footer{
+footer {
   text-align: center;
   color: #585858;
   font-family: 'Century Gothic';
@@ -16,7 +16,7 @@ footer{
   padding: 3%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -2%; 
+  margin-top: -2%;
 }
 
 h1 , p {
@@ -44,7 +44,7 @@ h1 , p {
 }
 
 .inputs {
-	margin-top: -5%; 
+	margin-top: -5%;
   text-align: center;
   font-family: 'Century Gothic';
 }
@@ -87,8 +87,6 @@ h1 , p {
   text-align: center;
 }
 
-
-
 #alert {
    font-family: 'Century Gothic';
     text-align: center;
@@ -105,36 +103,27 @@ h1 , p {
 
 
 @media screen and (max-width: 480px) {
-	
-.add-picture{
-	width: 81%;
-	text-align: center;
 
-	
-}
+  .add-picture {
+	  width: 81%;
+	  text-align: center;
+  }
 
-.save{
-	width: 81%;
-	text-align: center;
+  .save {
+	  width: 81%;
+	  text-align: center;
+  }
 
-	
-}
+  .quit {
+	  width: 81%;
+	  text-align: center;
+  }
 
-.quit{
-	width: 81%;
-	text-align: center;
+  #entry-title, #place {
+	  width: 81%;
+	  text-align: center;
+  }
 
-	
-}	
-
-#entry-title, #place {
-	width: 81%;
-	text-align: center;
-	
-}
-
-#place{
-
+  #place {
 	  margin-top: 0%;
-	
-}
+  }

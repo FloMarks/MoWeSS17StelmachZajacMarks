@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
-    
+
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -12,21 +12,22 @@ session_start();
   <body>
     <form action="includes/login-inc.php" method="POST" id="main">
 
-    <header><p>Login</p></header>
-<div class="container">
-    <input type="text" placeholder="Enter Username" name="uname" required>
+      <header><p>Login</p></header>
+      <div class="container">
+        <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <input type="password" placeholder="Enter Password" name="upwd" required>
+        <input type="password" placeholder="Enter Password" name="upwd" required>
 
-    <button id="submit" type="submit" name="submit"> Ok !</button>
-    <input type="checkbox" checked="checked"> <p id="remember">Remember me</p>
-  </div>
+        <button id="submit" type="submit" name="submit"> Ok !</button>
+        <input type="checkbox" checked="checked"> <p id="remember">Remember me</p>
+      </div>
 
-  <div class="container" id="space">
-    <a href="../blog_entrys/create_entry.php"><button type="button" class="cancelbtn">Cancel</button></a> 
-    <a href="register.php"><button type="button" class="registerbtn">  Register </button></a>    
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
+      <div class="container" id="space">
+        <a href="../blog_entrys/create_entry.php"><button type="button" class="cancelbtn">Cancel</button></a>
+        <a href="register.php"><button type="button" class="registerbtn">  Register </button></a>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+
+    </form>
   </body>
 </html>

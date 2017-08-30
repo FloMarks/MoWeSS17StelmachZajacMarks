@@ -3,10 +3,7 @@ body {
     font-family: 'Century Gothic';
     background-size: 100%;
     background-repeat: no-repeat;
-
-
 }
-
 
 /* Bordered form */
 form {
@@ -48,7 +45,7 @@ button {
 }
 
 button[type=submit]{
-    font-size: 1.4em;  
+    font-size: 1.4em;
 }
 
 #accept{
@@ -66,7 +63,6 @@ button:hover {
     opacity: 0.8;
 }
 
-
 /* Extra style for the cancel button (red) */
 .cancelbtn {
     width: auto;
@@ -82,11 +78,13 @@ button:hover {
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
+
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
 }
