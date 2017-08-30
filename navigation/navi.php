@@ -16,7 +16,10 @@
         <a class="nav" href="../blog_entrys/create_entry.php">Neuer Beitrag</a>
         <?php
           if(isset($_SESSION['user_id'])){
-            echo '<form id="logout" action="../login_system/includes/logout-inc.php" method="POST">
+              
+            $username = $_SESSION['user_name'];
+              
+            echo '<a id="prof_res" href="../profil/user_profil.php?profil='.$username.'">Profil</a><form id="logout" action="../login_system/includes/logout-inc.php" method="POST">
               <button type="submit" name="submit">Logout</button>
             </form>';
           } else {
@@ -25,8 +28,10 @@
         ?>
       </div>
       <div id="logo">
+          <a href="../startseite/startseite.php">
         <img id="icon_pic" src="../images/blue-pencil-horizontal-hi.png">
 			  <a id="icon" href="#pavels">Pavel's</a>
+          </a>
       </div>
 
       <?php

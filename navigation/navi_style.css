@@ -127,7 +127,7 @@ nav {
   display: none;
 }
 
-.topnav #log, .topnav #logout button {
+.topnav #log, .topnav #logout button, .topnav #prof_res {
   display: none;
 }
 
@@ -136,7 +136,7 @@ nav {
 
   .topnav a, .topnav #logout button {
     display: none;
-    z-index:+1;
+    z-index: +1;
     position: relative;
   }
 
@@ -162,7 +162,7 @@ nav {
     text-align: left;
   }
 
-  .topnav.responsive #log, .topnav.responsive #logout button {
+  .topnav.responsive #log, .topnav.responsive #logout button , .topnav.responsive #prof_res {
     display: block;
     text-align: left;
   }
