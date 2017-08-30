@@ -9,6 +9,7 @@ session_start();
     <link href="register_style.css" type="text/css" rel="stylesheet">
   </head>
 
+    <div id="back"></div>
   <body>
     <form action="includes/register-inc.php" method="POST">
 

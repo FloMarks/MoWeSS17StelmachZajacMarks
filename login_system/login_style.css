@@ -1,18 +1,32 @@
-body {
-    background-image: url(../images/login_back_2.jpg);
+body, html {
     font-family: 'Century Gothic';
-    background-size: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+#back {
+     /* The image used */
+    background-image: url("../images/13.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Bordered form */
 #main {
     border: 2px solid #000;
-    position: fixed;
-    top: 20%;
-    left: 30%;
-    right: 30%;
     border-radius: 5px;
+    width: 500px;
+    height: 405px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
 }
 
 header {
@@ -111,14 +125,99 @@ span.psw {
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 550px) {
+    
+    #back {
+        background-image: url(../images/13.jpeg);
+    }
+    
+    #main {
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 80%;
+        height: 405px;
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+    }
+    
+    .psw {
+        display: none;
+    }
+    
+    .cancelbtn {
+        width: 49%;
+        padding: 10px 20px;
+        background-color: #f44336;
+    }
 
-  span.psw {
-    display: block;
-    float: none;
-  }
-
-  .cancelbtn {
-    width: 100%;
-  }
+    .registerbtn {
+        display: inline;
+        padding: 10px 20px;
+        width: 49%;
+        float: right;
+    }
+  
 }
+
+@media screen and (min-width: 550px) and (max-height: 500px) {
+    #back {
+        background-image: url(../images/14.jpeg);
+    }
+    
+    #rem, #remember, .psw {
+        display: none;
+    }
+    
+    #space {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    #main {
+        height: 240px;
+    }
+    
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 5px 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        margin-top: -25px;
+        padding-bottom: 0;
+    }
+    
+    header {
+        font-size: 1.3em;
+    }
+    
+    #submit{
+        font-size: 1.3em;
+    }
+    
+    button {
+        background-color: #eee;
+        padding: 5px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px;
+        font-family: 'Century Gothic';
+    }
+    
+    .cancelbtn {
+        width: 49%;
+    }
+    
+    .registerbtn {
+        width: 49%;
+        float: right;
+    }
+
+}
+

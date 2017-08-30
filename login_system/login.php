@@ -8,8 +8,9 @@ session_start();
     <title>Login</title>
     <link href="login_style.css" type="text/css" rel="stylesheet">
   </head>
-
-  <body>
+    <div id="back"></div>
+  
+    <body>   
     <form action="includes/login-inc.php" method="POST" id="main">
 
       <header><p>Login</p></header>
@@ -19,7 +20,7 @@ session_start();
         <input type="password" placeholder="Enter Password" name="upwd" required>
 
         <button id="submit" type="submit" name="submit"> Ok !</button>
-        <input type="checkbox" checked="checked"> <p id="remember">Remember me</p>
+        <input type="checkbox" checked="checked" id="rem"> <p id="remember">Remember me</p>
       </div>
 
       <div class="container" id="space">

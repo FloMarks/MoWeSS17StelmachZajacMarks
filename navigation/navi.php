@@ -1,8 +1,6 @@
 <!DOCTYPE>
 <html>
   <head>
-    <link href="navi_style.css" type="text/css" rel="stylesheet">
-    <script src="navi_code.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale = 1.0">
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <!--Einbindung des navi stylesheets, festlegung des viewports und des charsets.-->
