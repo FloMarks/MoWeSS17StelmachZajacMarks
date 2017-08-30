@@ -202,12 +202,17 @@
 	
 	.login-buttons-main a {
 	width: 150px; 
+
 }
 
 	.search-input-main {	
 	width: 60%; 
+	  margin-top: -15%;
+
 }
 
+	#welcome-text{
+	display: none; 
 }
 
 /*Eigentlicher Inhalt der Page*/
