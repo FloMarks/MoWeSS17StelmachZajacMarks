@@ -11,7 +11,7 @@ session_start();
 
     <div id="back"></div>
   <body>
-    <form action="includes/register-inc.php" method="POST">
+    <form action="includes/register-inc.php" method="POST" id="main">
 
       <header><p>Register</p></header>
       <div class="container">
@@ -24,7 +24,7 @@ session_start();
 
         <button id="submit" type="submit" name="submit"> Sign up !</button>
 
-        <input type="checkbox" checked="checked"> <p id="accept">I accept the terms and conditions</p>
+        <input type="checkbox" checked="checked" id="check"> <p id="accept">I accept the terms and conditions</p>
       </div>
 
       <div class="container" id="space">
