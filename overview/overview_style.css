@@ -226,35 +226,34 @@ footer{
 
   .filter_box2, .overview_box2 {
   	grid-column:  7 / 12;
-    grid-row:    6 / 6;
+    grid-row:    5 / 5;
   }
 
   .filter_box3, .overview_box3 {
   	grid-column:  2 / 7;
-    grid-row:    7 / 7;
+    grid-row:    6 / 6;
   }
 
   .filter_box4, .overview_box4 {
     grid-column:  7 / 12;
-    grid-row:    8 / 8;
+    grid-row:    6 / 6;
   }
 
   .filter_box5, .overview_box5 {
   	grid-column:  2 / 7;
-    grid-row:    9 / 9;
+    grid-row:    7 / 7;
   }
 
   .filter_box6, .overview_box6 {
   	grid-column:  7 / 12;
-    grid-row:    10 / 10;
+    grid-row:    7 / 7;
   }
 
   .filter_box7, .overview_box7 {
     grid-column: 2 / 7;
-    grid-row:    11 / 11;
+    grid-row:    8 / 8;
   }
-
-    
+ 
     
   .filter_box8, .overview_box8 {
   	grid-column:  7 / 12;

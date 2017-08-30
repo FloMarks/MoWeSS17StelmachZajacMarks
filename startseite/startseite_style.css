@@ -215,6 +215,8 @@
 	display: none; 
 }
 
+}
+
 /*Eigentlicher Inhalt der Page*/
 
 body{
@@ -274,3 +276,4 @@ footer {
   margin-bottom: 1%; 
   font-size: 12px;
 }
+
