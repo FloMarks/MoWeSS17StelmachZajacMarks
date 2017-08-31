@@ -24,7 +24,7 @@ session_start();
       </div>
 
       <div class="container" id="space">
-        <a href="../blog_entrys/create_entry.php"><button type="button" class="cancelbtn">Cancel</button></a>
+        <a href="../startseite/index.php"><button type="button" class="cancelbtn">Cancel</button></a>
         <a href="register.php"><button type="button" class="registerbtn">  Register </button></a>
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
