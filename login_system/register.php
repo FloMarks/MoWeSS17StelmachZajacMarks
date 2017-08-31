@@ -28,7 +28,7 @@ session_start();
       </div>
 
       <div class="container" id="space">
-        <a href="../startseite/startseite.php"><button type="button" class="cancelbtn">Cancel</button></a>
+        <a href="../startseite/index.php"><button type="button" class="cancelbtn">Cancel</button></a>
       </div>
     </form>
   </body>

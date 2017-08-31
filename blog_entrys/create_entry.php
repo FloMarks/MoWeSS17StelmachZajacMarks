@@ -35,7 +35,7 @@ session_start();
             <div class = "buttons">
               <button class = "add-picture" type = "button">Bilder hinzufügen</button>
               <button class = "save" type="submit" name="submit">Speichern</button>
-              <a  href="../startseite/startseite.php"><button class = "quit" type = "button">Abbrechen</button></a>
+              <a  href="../startseite/index.php"><button class = "quit" type = "button">Abbrechen</button></a>
             </div>
 
           </form>

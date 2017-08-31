@@ -11,7 +11,7 @@
       <div class="topnav" id="myTopnav">
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        <a class="nav" href="../startseite/startseite.php">Startseite</a>
+        <a class="nav" href="../startseite/index.php">Startseite</a>
         <a class="nav" href="../overview/overview.php">Entdecken</a>
         <a class="nav" href="../blog_entrys/create_entry.php">Neuer Beitrag</a>
         <?php
@@ -28,7 +28,7 @@
         ?>
       </div>
       <div id="logo">
-          <a href="../startseite/startseite.php">
+          <a href="../startseite/index.php">
         <img id="icon_pic" src="../images/blue-pencil-horizontal-hi.png">
 			  <a id="icon" href="#pavels">Pavel's</a>
           </a>

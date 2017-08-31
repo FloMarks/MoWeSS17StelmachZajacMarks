@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
           $_SESSION['user_email'] = $row['user_email'];
           $_SESSION['user_pwd'] = $row['user_pwd'];
 
-          header("Location: ../../startseite/startseite.php?login=success");
+          header("Location: ../../startseite/index.php?login=success");
           exit();
         }
       }
