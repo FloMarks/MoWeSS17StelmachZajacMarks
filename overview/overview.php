@@ -32,7 +32,7 @@ session_start();
   		<div class="box overview_box1"></div>
   			<div class="box filter_box1"><a href="../blog_entrys/blog_entry.php?search=Pompeji"><h1 id="name_box1">Pompeji</h1></div></a>
   		<div class="box overview_box2"></div>
-  			<div class="box filter_box2"><a href="../blog_entrys/blog_entry.php?search=Koeln"><h1 id="name_box2">Köln</h1></div></a>
+  			<div class="box filter_box2"><a href="../blog_entrys/blog_entry.php?search=Köln"><h1 id="name_box2">Köln</h1></div></a>
   		<div class="box overview_box3"></div>
   			<div class="box filter_box3"><a href="../blog_entrys/blog_entry.php?search=Nepal"><h1 id="name_box3">Nepal</h1></div></a>
   		<div class="box overview_box4"></div>
@@ -42,7 +42,7 @@ session_start();
   		<div class="box overview_box6"></div>
   			<div class="box filter_box6"><a href="../blog_entrys/blog_entry.php?search=Melbourne"><h1 id="name_box6">Melbourne</h1></div></a>
   		<div class="box overview_box7"></div>
-  			<div class="box filter_box7"><a href="../blog_entrys/blog_entry.php?search=Niagarafaelle"><h1 id="name_box7">Niagarafälle</h1></div></a>
+  			<div class="box filter_box7"><a href="../blog_entrys/blog_entry.php?search=Niagarafälle"><h1 id="name_box7">Niagarafälle</h1></div></a>
   		<div class="box overview_box8"></div>
   			<div class="box filter_box8"><a href="../blog_entrys/blog_entry.php?search=Kolumbien"><h1 id="name_box8">Kolumbien</h1></div></a>
   		<div class="box overview_box9"></div>
