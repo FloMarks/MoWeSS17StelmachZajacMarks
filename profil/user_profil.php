@@ -12,19 +12,9 @@ session_start();
     <script src="../navigation/navi_code.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <title>User Profile</title>
-    <script>
-      //jQuery Code
-      $(document).ready(function(){
-        var blogCount = 0;
-        $("#next_entry").click(function(){
-          blogCount = blogCount + 1;
-          $("#entry").load("includes/user_profile-inc.php", {
-            cur: blogCount
-          });
-        });
-      });
-    </script>
+    <script src="ajax_profil.js"></script>
+      <title>User Profile</title>
+
   </head>
 
   <!--NAVIGATION-->
@@ -103,7 +93,7 @@ session_start();
       </div>
 
       <div id="next">
-        <button id="next_entry" type="button">Nächster Beitrag</button>
+        <button onClick="nextEntry();" id="next_entry" type="button">Nächster Beitrag</button>
       </div>
     </div>
 
