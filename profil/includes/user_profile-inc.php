@@ -25,6 +25,7 @@
     $more = "more";
     $tag = $row['blog_entry_id'];
 
+    
     echo '<p id="'.$title.'">';
     echo $row['title'];
     echo "</p>";
